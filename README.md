@@ -3,3 +3,5 @@ Doom, a classical First-Person Shooting (FPS) game created in 1993. It was desig
 The specific characteristics of the game are as follow. The objective on each episode is to kill as many monsters. For every monster killed, 1 point is received, and for every time our agent is killed, one point is subtracted. There are three possible actions for our agent: turn left, turn right and shoot. To complete the goal proposed in the simulator, the agent needs to reach 15 as the best 100-episode average reward. To get 15 points in one episode our agent either has to kill 16 monsters before being killed, or kill 15 monsters without being killed.
 In this work, we create a machine learning agent that play Doom Defend Line, which is a scenario from the classic game Doom. We hypothesize that by using two different RL
 methods separately we can create an agent that is competi-tive enough to score 15 points in average through 100 con-secutive episodes which is the goal proposed in the simula-tor website.
+![Sarsa Learning Curve](slc.PNG?raw=true "SARSA Learning")
+![Q Leanring Learning Curve](qlc.PNG?raw=true "Q learning")
